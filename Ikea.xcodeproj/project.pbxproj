@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5326097D23BEB63700AD7123 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326097C23BEB63700AD7123 /* AppDelegate.swift */; };
+		5326097F23BEB63700AD7123 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326097E23BEB63700AD7123 /* SceneDelegate.swift */; };
+		5326098123BEB63700AD7123 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326098023BEB63700AD7123 /* ViewController.swift */; };
+		5326098423BEB63700AD7123 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5326098223BEB63700AD7123 /* Main.storyboard */; };
+		5326098623BEB63800AD7123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5326098523BEB63800AD7123 /* Assets.xcassets */; };
+		5326098923BEB63800AD7123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5326098723BEB63800AD7123 /* LaunchScreen.storyboard */; };
+		5326099423BEB63800AD7123 /* IkeaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326099323BEB63800AD7123 /* IkeaTests.swift */; };
+		5326099F23BEB63800AD7123 /* IkeaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326099E23BEB63800AD7123 /* IkeaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5326099023BEB63800AD7123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5326097123BEB63700AD7123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5326097823BEB63700AD7123;
+			remoteInfo = Ikea;
+		};
+		5326099B23BEB63800AD7123 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5326097123BEB63700AD7123 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5326097823BEB63700AD7123;
+			remoteInfo = Ikea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5326097923BEB63700AD7123 /* Ikea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ikea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5326097C23BEB63700AD7123 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5326097E23BEB63700AD7123 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5326098023BEB63700AD7123 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5326098323BEB63700AD7123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5326098523BEB63800AD7123 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5326098823BEB63800AD7123 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5326098A23BEB63800AD7123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5326098F23BEB63800AD7123 /* IkeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IkeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5326099323BEB63800AD7123 /* IkeaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkeaTests.swift; sourceTree = "<group>"; };
+		5326099523BEB63800AD7123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5326099A23BEB63800AD7123 /* IkeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IkeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5326099E23BEB63800AD7123 /* IkeaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IkeaUITests.swift; sourceTree = "<group>"; };
+		532609A023BEB63800AD7123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5326097623BEB63700AD7123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5326098C23BEB63800AD7123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5326099723BEB63800AD7123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5326097023BEB63700AD7123 = {
+			isa = PBXGroup;
+			children = (
+				5326097B23BEB63700AD7123 /* Ikea */,
+				5326099223BEB63800AD7123 /* IkeaTests */,
+				5326099D23BEB63800AD7123 /* IkeaUITests */,
+				5326097A23BEB63700AD7123 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5326097A23BEB63700AD7123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5326097923BEB63700AD7123 /* Ikea.app */,
+				5326098F23BEB63800AD7123 /* IkeaTests.xctest */,
+				5326099A23BEB63800AD7123 /* IkeaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5326097B23BEB63700AD7123 /* Ikea */ = {
+			isa = PBXGroup;
+			children = (
+				5326097C23BEB63700AD7123 /* AppDelegate.swift */,
+				5326097E23BEB63700AD7123 /* SceneDelegate.swift */,
+				5326098023BEB63700AD7123 /* ViewController.swift */,
+				5326098223BEB63700AD7123 /* Main.storyboard */,
+				5326098523BEB63800AD7123 /* Assets.xcassets */,
+				5326098723BEB63800AD7123 /* LaunchScreen.storyboard */,
+				5326098A23BEB63800AD7123 /* Info.plist */,
+			);
+			path = Ikea;
+			sourceTree = "<group>";
+		};
+		5326099223BEB63800AD7123 /* IkeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5326099323BEB63800AD7123 /* IkeaTests.swift */,
+				5326099523BEB63800AD7123 /* Info.plist */,
+			);
+			path = IkeaTests;
+			sourceTree = "<group>";
+		};
+		5326099D23BEB63800AD7123 /* IkeaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5326099E23BEB63800AD7123 /* IkeaUITests.swift */,
+				532609A023BEB63800AD7123 /* Info.plist */,
+			);
+			path = IkeaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5326097823BEB63700AD7123 /* Ikea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532609A323BEB63800AD7123 /* Build configuration list for PBXNativeTarget "Ikea" */;
+			buildPhases = (
+				5326097523BEB63700AD7123 /* Sources */,
+				5326097623BEB63700AD7123 /* Frameworks */,
+				5326097723BEB63700AD7123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ikea;
+			productName = Ikea;
+			productReference = 5326097923BEB63700AD7123 /* Ikea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5326098E23BEB63800AD7123 /* IkeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532609A623BEB63800AD7123 /* Build configuration list for PBXNativeTarget "IkeaTests" */;
+			buildPhases = (
+				5326098B23BEB63800AD7123 /* Sources */,
+				5326098C23BEB63800AD7123 /* Frameworks */,
+				5326098D23BEB63800AD7123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5326099123BEB63800AD7123 /* PBXTargetDependency */,
+			);
+			name = IkeaTests;
+			productName = IkeaTests;
+			productReference = 5326098F23BEB63800AD7123 /* IkeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5326099923BEB63800AD7123 /* IkeaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532609A923BEB63800AD7123 /* Build configuration list for PBXNativeTarget "IkeaUITests" */;
+			buildPhases = (
+				5326099623BEB63800AD7123 /* Sources */,
+				5326099723BEB63800AD7123 /* Frameworks */,
+				5326099823BEB63800AD7123 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5326099C23BEB63800AD7123 /* PBXTargetDependency */,
+			);
+			name = IkeaUITests;
+			productName = IkeaUITests;
+			productReference = 5326099A23BEB63800AD7123 /* IkeaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5326097123BEB63700AD7123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Livia Vasconcelos";
+				TargetAttributes = {
+					5326097823BEB63700AD7123 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5326098E23BEB63800AD7123 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5326097823BEB63700AD7123;
+					};
+					5326099923BEB63800AD7123 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5326097823BEB63700AD7123;
+					};
+				};
+			};
+			buildConfigurationList = 5326097423BEB63700AD7123 /* Build configuration list for PBXProject "Ikea" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5326097023BEB63700AD7123;
+			productRefGroup = 5326097A23BEB63700AD7123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5326097823BEB63700AD7123 /* Ikea */,
+				5326098E23BEB63800AD7123 /* IkeaTests */,
+				5326099923BEB63800AD7123 /* IkeaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5326097723BEB63700AD7123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326098923BEB63800AD7123 /* LaunchScreen.storyboard in Resources */,
+				5326098623BEB63800AD7123 /* Assets.xcassets in Resources */,
+				5326098423BEB63700AD7123 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5326098D23BEB63800AD7123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5326099823BEB63800AD7123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5326097523BEB63700AD7123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326098123BEB63700AD7123 /* ViewController.swift in Sources */,
+				5326097D23BEB63700AD7123 /* AppDelegate.swift in Sources */,
+				5326097F23BEB63700AD7123 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5326098B23BEB63800AD7123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326099423BEB63800AD7123 /* IkeaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5326099623BEB63800AD7123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5326099F23BEB63800AD7123 /* IkeaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5326099123BEB63800AD7123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5326097823BEB63700AD7123 /* Ikea */;
+			targetProxy = 5326099023BEB63800AD7123 /* PBXContainerItemProxy */;
+		};
+		5326099C23BEB63800AD7123 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5326097823BEB63700AD7123 /* Ikea */;
+			targetProxy = 5326099B23BEB63800AD7123 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5326098223BEB63700AD7123 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5326098323BEB63700AD7123 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5326098723BEB63800AD7123 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5326098823BEB63800AD7123 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		532609A123BEB63800AD7123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		532609A223BEB63800AD7123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		532609A423BEB63800AD7123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9CMSL6QFV;
+				INFOPLIST_FILE = Ikea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.Ikea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		532609A523BEB63800AD7123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9CMSL6QFV;
+				INFOPLIST_FILE = Ikea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.Ikea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		532609A723BEB63800AD7123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9CMSL6QFV;
+				INFOPLIST_FILE = IkeaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.IkeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ikea.app/Ikea";
+			};
+			name = Debug;
+		};
+		532609A823BEB63800AD7123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9CMSL6QFV;
+				INFOPLIST_FILE = IkeaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.IkeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ikea.app/Ikea";
+			};
+			name = Release;
+		};
+		532609AA23BEB63800AD7123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9CMSL6QFV;
+				INFOPLIST_FILE = IkeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.IkeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ikea;
+			};
+			name = Debug;
+		};
+		532609AB23BEB63800AD7123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L9CMSL6QFV;
+				INFOPLIST_FILE = IkeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liuvasconcelos.IkeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ikea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5326097423BEB63700AD7123 /* Build configuration list for PBXProject "Ikea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532609A123BEB63800AD7123 /* Debug */,
+				532609A223BEB63800AD7123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532609A323BEB63800AD7123 /* Build configuration list for PBXNativeTarget "Ikea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532609A423BEB63800AD7123 /* Debug */,
+				532609A523BEB63800AD7123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532609A623BEB63800AD7123 /* Build configuration list for PBXNativeTarget "IkeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532609A723BEB63800AD7123 /* Debug */,
+				532609A823BEB63800AD7123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532609A923BEB63800AD7123 /* Build configuration list for PBXNativeTarget "IkeaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532609AA23BEB63800AD7123 /* Debug */,
+				532609AB23BEB63800AD7123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5326097123BEB63700AD7123 /* Project object */;
+}
