@@ -59,11 +59,22 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9XJ-SL-5MH">
                                 <rect key="frame" x="0.0" y="44" width="414" height="743"/>
                             </arscnView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plane Detected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nut-dT-8FP">
+                                <rect key="frame" x="104" y="44" width="206.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="6J9-Ut-o60"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9XJ-SL-5MH" secondAttribute="trailing" id="0q0-xm-KLw"/>
+                            <constraint firstItem="Nut-dT-8FP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4sv-Ik-tOe"/>
                             <constraint firstItem="oN9-9l-3rC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7KI-5Y-N6A"/>
+                            <constraint firstItem="Nut-dT-8FP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Ra-gZ-ose"/>
                             <constraint firstItem="9XJ-SL-5MH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Nev-Dt-oWl"/>
                             <constraint firstItem="oN9-9l-3rC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Pr0-JP-Onr"/>
                             <constraint firstItem="9XJ-SL-5MH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XyL-Pp-YFw"/>
@@ -74,6 +85,7 @@
                     </view>
                     <connections>
                         <outlet property="itemsCollectionView" destination="oN9-9l-3rC" id="bFz-GE-4Xo"/>
+                        <outlet property="planeDetectedLabel" destination="Nut-dT-8FP" id="lHP-Kv-gdu"/>
                         <outlet property="sceneView" destination="9XJ-SL-5MH" id="VnG-W8-Ni4"/>
                     </connections>
                 </viewController>
